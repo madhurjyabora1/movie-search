@@ -34,13 +34,13 @@ class App extends Component {
           <h2 className='center'>Movie Search</h2>
         </div>
 
-        <div className='container'>
+        <div>
           <Input
             value={this.state.searchInput}
             onChange={this.onChangeHandler}
             onClick={this.getMovie}
           />
-          <div className='row'>
+          <div>
             {loading ? (
               <div className='loader' />
             ) : (

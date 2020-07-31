@@ -50,7 +50,7 @@ const MovieTable = ({ data, deleteMovie }) => {
     },
   ];
   return (
-    <div className='col m4'>
+    <div>
       <BootstrapTable keyField='id' data={data} columns={columns} />
     </div>
   );
